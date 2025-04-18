@@ -6,7 +6,28 @@
 # print(ans)
 
 
+# def format_name(f_name,l_name):
+#     print(f_name.title())
+#     print(l_name.title())
+# format_name("angellaa","AGNGELGA")
+
+
+# def format_name(f_name,l_name):
+#     return f"{f_name.title()} {l_name.title()}"
+     
+# formateed_string= format_name("angellaa","AGNGELGA")
+# print(formateed_string)
+
+
+
+#more than one return
+
+
 def format_name(f_name,l_name):
-    print(f_name.title())
-    print(l_name.title())
-format_name("angellaa","AGNGELGA")
+    if f_name=="" or l_name=="":
+        return
+    else:
+        return f"{f_name} and {l_name}"
+    
+formated=format_name("gulshan","yadav")
+print(formated)
